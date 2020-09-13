@@ -89,8 +89,8 @@ function checkForSameLocation(position){
 function find_address(position){
     // alert("hrner"+position.coords.latitude+","+position.coords.longitude);
     $.ajax({
-            url:"https://maps.googleapis.com/maps/api/geocode/json?latlng="+position.coords.latitude+","+position.coords.longitude+"&key=AIzaSyA-hKIBQ770K_26LwK7m5dJRMa8AU1l5Fc",
-            // url:"https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=AIzaSyA-hKIBQ770K_26LwK7m5dJRMa8AU1l5Fc",
+            url:"https://maps.googleapis.com/maps/api/geocode/json?latlng="+position.coords.latitude+","+position.coords.longitude+"&key=",
+            // url:"https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=",
             success:function(result){
                 var l=result.results[0].address_components.length;
                 var address_components=result.results[0].address_components;
