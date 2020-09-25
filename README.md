@@ -10,7 +10,7 @@ Concept: A real-time networking service for people integrated with instant-messa
     HTML   CSS    JavaScript    (Frontend)
     BootStrap     Codeigniter
     Web Sockets   Ajax
-    Node.js     Apache Server
+    Node.js       Apache Server
     Amazon Web Services
     Google Map APIs
     
