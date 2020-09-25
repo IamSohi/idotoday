@@ -6,11 +6,11 @@ Concept: A real-time networking service for people integrated with instant-messa
 
 # Technologies Used:
     
-    PHP,SQL (backend)
-    HTML, CSS, JavaScript (Frontend)
-    BootStrap, Codeigniter
-    Web Sockets, Ajax
-    Node.js and Apache Server
+    PHP    SQL                  (backend)
+    HTML   CSS    JavaScript    (Frontend)
+    BootStrap     Codeigniter
+    Web Sockets   Ajax
+    Node.js     Apache Server
     Amazon Web Services
     Google Map APIs
     
